@@ -24,9 +24,3 @@ function calculate(num1, num2, operator) {
 
     return `${num1} ${operator} ${num2} = ${result}`;
 }
-
-// Перевірка роботи
-console.log(calculate(10, 5, '+')); // 10 + 5 = 15
-console.log(calculate(20, 4, '/')); // 20 / 4 = 5
-console.log(calculate(7, 3, '*'));  // 7 * 3 = 21
-console.log(calculate(5, 0, '/'));  // Помилка: ділення на нуль заборонено!
